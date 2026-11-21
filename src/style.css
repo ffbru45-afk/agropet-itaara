@@ -11,3 +11,12 @@ header{height:96px}.brand-mark{display:flex;align-items:center;justify-content:c
 
 /* Banner oficial da AgroPet no topo */
 header{height:116px}.brand-mark{min-width:220px;min-height:90px}.brand-logo{height:90px;max-width:240px;object-fit:contain;box-shadow:none;border-radius:10px}@media(max-width:650px){header{height:90px}.brand-mark{min-width:160px;min-height:70px}.brand-logo{height:68px;max-width:170px}nav{top:90px}}
+
+/* Hero: arte AgroPet com animais no lugar da fotografia anterior */
+.hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.hero-copy{max-width:none;min-width:0;padding:78px 36px 65px max(36px,calc((100vw - 1180px)/2))}
+.hero h1{font-size:clamp(40px,4.2vw,66px);overflow-wrap:normal;word-break:normal}
+.hero-visual{min-width:0;overflow:hidden;background:#fff}
+.hero-photo{background:#fff url('/agropet-banner.png') center center/contain no-repeat!important}
+@media(max-width:900px){.hero-copy{padding:60px 25px}.hero h1{font-size:clamp(38px,5vw,56px)}}
+@media(max-width:650px){.hero{grid-template-columns:1fr}.hero-copy{padding:55px 25px 28px}.hero h1{font-size:clamp(39px,10vw,52px)}.hero-visual{min-height:300px}.hero-photo{background:#fff url('/agropet-banner.png') center center/contain no-repeat!important}}
