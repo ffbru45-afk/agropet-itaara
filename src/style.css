@@ -20,3 +20,6 @@ header{height:116px}.brand-mark{min-width:220px;min-height:90px}.brand-logo{heig
 .hero-photo{background:#fff url('/agropet-banner.png') center center/contain no-repeat!important}
 @media(max-width:900px){.hero-copy{padding:60px 25px}.hero h1{font-size:clamp(38px,5vw,56px)}}
 @media(max-width:650px){.hero{grid-template-columns:1fr}.hero-copy{padding:55px 25px 28px}.hero h1{font-size:clamp(39px,10vw,52px)}.hero-visual{min-height:300px}.hero-photo{background:#fff url('/agropet-banner.png') center center/contain no-repeat!important}}
+
+/* Recorte da marca central do banner, sem lista de produtos nem animais */
+.brand-mark{min-width:155px;min-height:78px;overflow:hidden}.brand-symbol{display:block;width:155px;height:78px;background-image:url('/agropet-banner.png');background-repeat:no-repeat;background-size:390px auto;background-position:center -5px;border-radius:8px}@media(max-width:650px){.brand-mark{min-width:125px;min-height:63px}.brand-symbol{width:125px;height:63px;background-size:315px auto;background-position:center -4px}}
